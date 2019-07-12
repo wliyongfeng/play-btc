@@ -1,0 +1,11 @@
+{
+  "name": "play-btc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:wliyongfeng/play-btc.git",
+  "author": "Yongfeng LI <wliyongfeng@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bitcoinjs-lib": "4.0.2"
+  }
+}
