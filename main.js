@@ -5,6 +5,7 @@ const network = bitcoin.networks.testnet;
 // 如果是主网，用这句，注释掉上边那句
 // const network = bitcoin.networks.bitcoin;
 
+// 可以是16进制，也可以是WIF格式
 const privateKey = "140c4e5d335f8f78a523f4bced76756d9726b83fe0aa97703c823d140b93c6e9";
 
 // 获取ECPair，用于签名。参数可以直接是私钥hex格式，也可以是WIF格式。
