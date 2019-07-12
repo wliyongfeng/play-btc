@@ -36,9 +36,6 @@ function constructTx() {
    * 测试网api：https://api.chainx.org/bitx/testnet/${addr}/utxos
    * 主网api: https://api.chainx.org/bitx/mainnet/${addr}/utxos
    */
-  // 第一步，添加inputs，这里我们只添加一个input
-  // 参数第一个是要花费的交易id，第二个是output index
-  // unspents 列表通过api查询huode
   txb.addInput("d320034c13538d9c2b52d0a3e7ec3fba9d0267d5532cbc8723d1add85640afe5", 0);
 
   // 第二步，添加output，这里我们添加一个p2pkh的output
