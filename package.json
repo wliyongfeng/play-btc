@@ -2,10 +2,13 @@
   "name": "play-btc",
   "version": "1.0.0",
   "main": "index.js",
+  "packageManager": "pnpm@11.5.1",
   "repository": "git@github.com:wliyongfeng/play-btc.git",
   "author": "Yongfeng LI <wliyongfeng@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "bitcoinjs-lib": "4.0.2"
+    "bitcoinjs-lib": "7.0.1",
+    "ecpair": "^3.0.1",
+    "tiny-secp256k1": "^2.2.4"
   }
 }
